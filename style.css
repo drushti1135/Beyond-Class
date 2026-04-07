@@ -1,0 +1,123 @@
+/* ===== GENERAL BODY ===== */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #111 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ===== CARDS ===== */
+.card {
+    border-radius: 15px;
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+}
+
+/* ===== DASHBOARD CARDS ===== */
+.dashboard-card {
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.bg-blue {
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+}
+
+.bg-green {
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+}
+
+.bg-orange {
+    background: linear-gradient(45deg, #f7971e, #ffd200);
+}
+
+/* ===== TABLE ===== */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #343a40;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+    border-radius: 25px;
+    padding: 6px 15px;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #11998e, #38ef7d);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #cb2d3e, #ef473a);
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(45deg, #f7971e, #ffd200);
+    border: none;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #396afc, #2948ff);
+    border: none;
+}
+
+/* ===== SEARCH BOX ===== */
+input, select {
+    border-radius: 10px !important;
+}
+
+/* ===== CONTAINER SPACING ===== */
+.container {
+    margin-top: 30px;
+}
+
+/* Background */
+body {
+    background: linear-gradient(to right, #f1f3f6, #e2e6ea);
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 20px;
+}
+
+/* Title */
+h3 {
+    font-weight: bold;
+}
+
+/* Button hover effect */
+.btn-success:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+
+
